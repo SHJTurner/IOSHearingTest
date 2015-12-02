@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9647D4541C00E60C00FAF482 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9647D4531C00E60C00FAF482 /* ResultViewController.swift */; };
+		966D677F1BF9F2D30017C95D /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966D677E1BF9F2D30017C95D /* StartViewController.swift */; };
+		96C13E361BFA1B3500413017 /* HearSoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C13E351BFA1B3500413017 /* HearSoundViewController.swift */; };
+		96C13E3B1BFA1D0400413017 /* PlaySoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C13E3A1BFA1D0400413017 /* PlaySoundViewController.swift */; };
 		96E5A9C51BF0C62F00258C80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5A9C41BF0C62F00258C80 /* AppDelegate.swift */; };
 		96E5A9C71BF0C62F00258C80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5A9C61BF0C62F00258C80 /* ViewController.swift */; };
 		96E5A9CA1BF0C62F00258C80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E5A9C81BF0C62F00258C80 /* Main.storyboard */; };
@@ -14,6 +18,20 @@
 		96E5A9CF1BF0C62F00258C80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96E5A9CD1BF0C62F00258C80 /* LaunchScreen.storyboard */; };
 		96E5A9DA1BF0C63000258C80 /* H_re_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5A9D91BF0C63000258C80 /* H_re_testTests.swift */; };
 		96E5A9E51BF0C63000258C80 /* H_re_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5A9E41BF0C63000258C80 /* H_re_testUITests.swift */; };
+		96E5AA031BF0C7F500258C80 /* libAudioKit iOS Dynamic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E5A9FC1BF0C7BE00258C80 /* libAudioKit iOS Dynamic.a */; };
+		96E5AA0F1BF0CB3200258C80 /* AudioKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5AA0E1BF0CB3200258C80 /* AudioKit.swift */; };
+		96E5AA1B1BF0D4DB00258C80 /* CsoundLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E5AA191BF0D4DB00258C80 /* CsoundLib.framework */; };
+		96E5AA1E1BF0D4E000258C80 /* CsoundLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 96E5AA191BF0D4DB00258C80 /* CsoundLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		96E5AA1F1BF0D4E000258C80 /* libsndfile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96E5AA1A1BF0D4DB00258C80 /* libsndfile.framework */; };
+		96E5AA201BF0D4E000258C80 /* libsndfile.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 96E5AA1A1BF0D4DB00258C80 /* libsndfile.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		96E5AA2D1BF0E53200258C80 /* HoldButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5AA2C1BF0E53200258C80 /* HoldButtonViewController.swift */; };
+		96E5AA2E1BF0E53200258C80 /* HoldButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5AA2C1BF0E53200258C80 /* HoldButtonViewController.swift */; };
+		96E5AA2F1BF0E53200258C80 /* HoldButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E5AA2C1BF0E53200258C80 /* HoldButtonViewController.swift */; };
+		96E5AA311BF0F04800258C80 /* Instruction_Video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 96E5AA301BF0F04800258C80 /* Instruction_Video.mp4 */; };
+		96E5AA321BF0F04800258C80 /* Instruction_Video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 96E5AA301BF0F04800258C80 /* Instruction_Video.mp4 */; };
+		96E5AA331BF0F04800258C80 /* Instruction_Video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 96E5AA301BF0F04800258C80 /* Instruction_Video.mp4 */; };
+		96F6FC481BFF41AD00386387 /* TonePlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F6FC471BFF41AD00386387 /* TonePlayerModel.swift */; };
+		96F6FC4F1BFF60E600386387 /* HearingtestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F6FC4E1BFF60E600386387 /* HearingtestModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,9 +49,63 @@
 			remoteGlobalIDString = 96E5A9C01BF0C62F00258C80;
 			remoteInfo = "Høre test";
 		};
+		96E5A9F91BF0C7BE00258C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96E5A9F21BF0C7BE00258C80 /* AudioKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA8E93D81AD3C5240057E979;
+			remoteInfo = "AudioKit iOS Static";
+		};
+		96E5A9FB1BF0C7BE00258C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96E5A9F21BF0C7BE00258C80 /* AudioKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EAA0F5941AE71C8F007CD7C9;
+			remoteInfo = "AudioKit iOS Dynamic";
+		};
+		96E5A9FD1BF0C7BE00258C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96E5A9F21BF0C7BE00258C80 /* AudioKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA8E96591AD3C6FC0057E979;
+			remoteInfo = "AudioKit OS X";
+		};
+		96E5A9FF1BF0C7BE00258C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96E5A9F21BF0C7BE00258C80 /* AudioKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EA93645D1BD865230005B849;
+			remoteInfo = "AudioKit tvOS";
+		};
+		96E5AA011BF0C7E700258C80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96E5A9F21BF0C7BE00258C80 /* AudioKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = EAA0F4DE1AE71C8F007CD7C9;
+			remoteInfo = "AudioKit iOS Dynamic";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		96E5AA0C1BF0C89E00258C80 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				96E5AA201BF0D4E000258C80 /* libsndfile.framework in Embed Frameworks */,
+				96E5AA1E1BF0D4E000258C80 /* CsoundLib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		9647D4531C00E60C00FAF482 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		966D677E1BF9F2D30017C95D /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		96C13E351BFA1B3500413017 /* HearSoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HearSoundViewController.swift; sourceTree = "<group>"; };
+		96C13E3A1BFA1D0400413017 /* PlaySoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundViewController.swift; sourceTree = "<group>"; };
 		96E5A9C11BF0C62F00258C80 /* Høre test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Høre test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E5A9C41BF0C62F00258C80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96E5A9C61BF0C62F00258C80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +119,15 @@
 		96E5A9E01BF0C63000258C80 /* Høre testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Høre testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E5A9E41BF0C63000258C80 /* H_re_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H_re_testUITests.swift; sourceTree = "<group>"; };
 		96E5A9E61BF0C63000258C80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96E5A9F21BF0C7BE00258C80 /* AudioKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AudioKit.xcodeproj; path = ../AudioKit/AudioKit.xcodeproj; sourceTree = "<group>"; };
+		96E5AA0E1BF0CB3200258C80 /* AudioKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AudioKit.swift; path = ../../AudioKit/AudioKit/Platforms/Swift/AudioKit.swift; sourceTree = "<group>"; };
+		96E5AA101BF0CBCC00258C80 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		96E5AA191BF0D4DB00258C80 /* CsoundLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CsoundLib.framework; sourceTree = "<group>"; };
+		96E5AA1A1BF0D4DB00258C80 /* libsndfile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libsndfile.framework; sourceTree = "<group>"; };
+		96E5AA2C1BF0E53200258C80 /* HoldButtonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoldButtonViewController.swift; sourceTree = "<group>"; };
+		96E5AA301BF0F04800258C80 /* Instruction_Video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Instruction_Video.mp4; sourceTree = "<group>"; };
+		96F6FC471BFF41AD00386387 /* TonePlayerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TonePlayerModel.swift; sourceTree = "<group>"; };
+		96F6FC4E1BFF60E600386387 /* HearingtestModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HearingtestModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +135,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E5AA1F1BF0D4E000258C80 /* libsndfile.framework in Frameworks */,
+				96E5AA1B1BF0D4DB00258C80 /* CsoundLib.framework in Frameworks */,
+				96E5AA031BF0C7F500258C80 /* libAudioKit iOS Dynamic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +161,13 @@
 		96E5A9B81BF0C62F00258C80 = {
 			isa = PBXGroup;
 			children = (
+				96E5A9F21BF0C7BE00258C80 /* AudioKit.xcodeproj */,
 				96E5A9C31BF0C62F00258C80 /* Høre test */,
 				96E5A9D81BF0C63000258C80 /* Høre testTests */,
 				96E5A9E31BF0C63000258C80 /* Høre testUITests */,
 				96E5A9C21BF0C62F00258C80 /* Products */,
+				96E5AA191BF0D4DB00258C80 /* CsoundLib.framework */,
+				96E5AA1A1BF0D4DB00258C80 /* libsndfile.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +184,22 @@
 		96E5A9C31BF0C62F00258C80 /* Høre test */ = {
 			isa = PBXGroup;
 			children = (
+				96E5AA101BF0CBCC00258C80 /* Bridging-Header.h */,
+				96E5AA0E1BF0CB3200258C80 /* AudioKit.swift */,
 				96E5A9C41BF0C62F00258C80 /* AppDelegate.swift */,
 				96E5A9C61BF0C62F00258C80 /* ViewController.swift */,
 				96E5A9C81BF0C62F00258C80 /* Main.storyboard */,
+				9647D4531C00E60C00FAF482 /* ResultViewController.swift */,
+				96F6FC471BFF41AD00386387 /* TonePlayerModel.swift */,
+				96C13E3A1BFA1D0400413017 /* PlaySoundViewController.swift */,
+				96E5AA2C1BF0E53200258C80 /* HoldButtonViewController.swift */,
+				96F6FC4E1BFF60E600386387 /* HearingtestModel.swift */,
 				96E5A9CB1BF0C62F00258C80 /* Assets.xcassets */,
 				96E5A9CD1BF0C62F00258C80 /* LaunchScreen.storyboard */,
 				96E5A9D01BF0C62F00258C80 /* Info.plist */,
+				96E5AA301BF0F04800258C80 /* Instruction_Video.mp4 */,
+				966D677E1BF9F2D30017C95D /* StartViewController.swift */,
+				96C13E351BFA1B3500413017 /* HearSoundViewController.swift */,
 			);
 			path = "Høre test";
 			sourceTree = "<group>";
@@ -125,6 +222,17 @@
 			path = "Høre testUITests";
 			sourceTree = "<group>";
 		};
+		96E5A9F31BF0C7BE00258C80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96E5A9FA1BF0C7BE00258C80 /* libAudioKit iOS Static.a */,
+				96E5A9FC1BF0C7BE00258C80 /* libAudioKit iOS Dynamic.a */,
+				96E5A9FE1BF0C7BE00258C80 /* libAudioKit OS X.a */,
+				96E5AA001BF0C7BE00258C80 /* libAudioKit tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +243,13 @@
 				96E5A9BD1BF0C62F00258C80 /* Sources */,
 				96E5A9BE1BF0C62F00258C80 /* Frameworks */,
 				96E5A9BF1BF0C62F00258C80 /* Resources */,
+				96E5AA0C1BF0C89E00258C80 /* Embed Frameworks */,
+				96E5AA0D1BF0C8A700258C80 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				96E5AA021BF0C7E700258C80 /* PBXTargetDependency */,
 			);
 			name = "Høre test";
 			productName = "Høre test";
@@ -215,6 +326,12 @@
 			mainGroup = 96E5A9B81BF0C62F00258C80;
 			productRefGroup = 96E5A9C21BF0C62F00258C80 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 96E5A9F31BF0C7BE00258C80 /* Products */;
+					ProjectRef = 96E5A9F21BF0C7BE00258C80 /* AudioKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				96E5A9C01BF0C62F00258C80 /* Høre test */,
@@ -224,11 +341,43 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		96E5A9FA1BF0C7BE00258C80 /* libAudioKit iOS Static.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libAudioKit iOS Static.a";
+			remoteRef = 96E5A9F91BF0C7BE00258C80 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		96E5A9FC1BF0C7BE00258C80 /* libAudioKit iOS Dynamic.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libAudioKit iOS Dynamic.a";
+			remoteRef = 96E5A9FB1BF0C7BE00258C80 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		96E5A9FE1BF0C7BE00258C80 /* libAudioKit OS X.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libAudioKit OS X.a";
+			remoteRef = 96E5A9FD1BF0C7BE00258C80 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		96E5AA001BF0C7BE00258C80 /* libAudioKit tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libAudioKit tvOS.a";
+			remoteRef = 96E5A9FF1BF0C7BE00258C80 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		96E5A9BF1BF0C62F00258C80 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E5AA311BF0F04800258C80 /* Instruction_Video.mp4 in Resources */,
 				96E5A9CF1BF0C62F00258C80 /* LaunchScreen.storyboard in Resources */,
 				96E5A9CC1BF0C62F00258C80 /* Assets.xcassets in Resources */,
 				96E5A9CA1BF0C62F00258C80 /* Main.storyboard in Resources */,
@@ -239,6 +388,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E5AA321BF0F04800258C80 /* Instruction_Video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,18 +396,43 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96E5AA331BF0F04800258C80 /* Instruction_Video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96E5AA0D1BF0C8A700258C80 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "#!/bin/bash\n#\n# Use this script as a \"run script\" phase for your iOS target to use the dynamic framework version of AudioKit.\n# You may either copy the contents of this script or reference the file from the run phase.\n#\n\nfor lib in CsoundLib libsndfile; do\ninstall_name_tool -change $lib @rpath/$lib.framework/$lib \"$TARGET_BUILD_DIR/$EXECUTABLE_PATH\"\n# If building for devices, strip the Intel slices from the libraries\nif ! test \"$CURRENT_ARCH\" = x86_64 -o \"$CURRENT_ARCH\" = i386; then\nlibpath=\"$CODESIGNING_FOLDER_PATH/Frameworks/$lib.framework/$lib\"\nlipo \"$libpath\" -verify_arch i386 x86_64 && lipo -remove i386 -remove x86_64 \"$libpath\" -output \"$libpath\"\nfi\ndone\nexit 0\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		96E5A9BD1BF0C62F00258C80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96F6FC4F1BFF60E600386387 /* HearingtestModel.swift in Sources */,
+				96C13E361BFA1B3500413017 /* HearSoundViewController.swift in Sources */,
+				966D677F1BF9F2D30017C95D /* StartViewController.swift in Sources */,
+				96E5AA0F1BF0CB3200258C80 /* AudioKit.swift in Sources */,
 				96E5A9C71BF0C62F00258C80 /* ViewController.swift in Sources */,
+				9647D4541C00E60C00FAF482 /* ResultViewController.swift in Sources */,
+				96E5AA2D1BF0E53200258C80 /* HoldButtonViewController.swift in Sources */,
 				96E5A9C51BF0C62F00258C80 /* AppDelegate.swift in Sources */,
+				96C13E3B1BFA1D0400413017 /* PlaySoundViewController.swift in Sources */,
+				96F6FC481BFF41AD00386387 /* TonePlayerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +441,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96E5A9DA1BF0C63000258C80 /* H_re_testTests.swift in Sources */,
+				96E5AA2E1BF0E53200258C80 /* HoldButtonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +450,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96E5A9E51BF0C63000258C80 /* H_re_testUITests.swift in Sources */,
+				96E5AA2F1BF0E53200258C80 /* HoldButtonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +466,11 @@
 			isa = PBXTargetDependency;
 			target = 96E5A9C01BF0C62F00258C80 /* Høre test */;
 			targetProxy = 96E5A9E11BF0C63000258C80 /* PBXContainerItemProxy */;
+		};
+		96E5AA021BF0C7E700258C80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AudioKit iOS Dynamic";
+			targetProxy = 96E5AA011BF0C7E700258C80 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -399,10 +581,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = "Høre test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "dk.sdu.sttur14.H-re-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Høre test/Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "../AudioKit/AudioKit/**";
 			};
 			name = Debug;
 		};
@@ -410,10 +599,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)";
 				INFOPLIST_FILE = "Høre test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MACH_O_TYPE = mh_execute;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = "dk.sdu.sttur14.H-re-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Høre test/Bridging-Header.h";
+				USER_HEADER_SEARCH_PATHS = "../AudioKit/AudioKit/**";
 			};
 			name = Release;
 		};
@@ -484,6 +680,7 @@
 				96E5A9EB1BF0C63000258C80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96E5A9EC1BF0C63000258C80 /* Build configuration list for PBXNativeTarget "Høre testTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +689,7 @@
 				96E5A9EE1BF0C63000258C80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96E5A9EF1BF0C63000258C80 /* Build configuration list for PBXNativeTarget "Høre testUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +698,7 @@
 				96E5A9F11BF0C63000258C80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
